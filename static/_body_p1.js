@@ -49,7 +49,7 @@ __SYD._p1 = () =>{
 }
 
 setTimeout(() =>{//max-height:100%;width:auto;max-
-    __v['_p1'].innerHTML = `<video autoplay playsinline muted style = 'height:100vh;width:auto;max-height:500px;' loop id="autoplay">
+    __v['_p1'].innerHTML = `<video autoplay playsinline muted style = 'height:100vh;width:auto;max-height:400px;' loop id="autoplay">
         <source src='./assets/intro.mp4' type="video/mp4">
      </video>
      <div style = 'height:50px;width:50px;position:absolute;top:10px;right:10px;border-radius:50%;background-size:70%;background-position:center;background-repeat:no-repeat;cursor:pointer;background-image:url("./assets/aud-d.png")' class="click" onclick = 'togMute()' id="aud"></div>`
@@ -62,7 +62,7 @@ __SYD.introVideo = () =>{
     return  __c(
         'video',
         {
-            style:'height:100vh;max-height:500px;width:auto;',
+            style:'height:100vh;max-height:400px;width:auto;',
             // controls:'false',
             // src:__p(['introVideo','url'],),
             autoplay:'autoplay',
