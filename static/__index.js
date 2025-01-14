@@ -293,8 +293,8 @@ __SYD.page1Socials = () =>{
         },
         [
             // __SYD.page1SocialBtn({contentSrc:'mm'}),
-            __SYD.page1SocialBtn({contentSrc:'tel'}),
-            __SYD.page1SocialBtn({contentSrc:'x'})
+            __SYD.page1SocialBtn({contentSrc:'tel' , link:"https://t.me/ragstorichcoin"}),
+            __SYD.page1SocialBtn({contentSrc:'x' , link:"https://x.com/to_riches37226?s=21"})
         ]
     )
 }
