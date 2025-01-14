@@ -33,7 +33,7 @@ __SYD._p1 = () =>{
             __c(
                 'div',
                 {
-                    style:'width:90%;max-width:800px;position:relative;overflow:hidden;',
+                    style:'width:fit-content;max-width:800px;position:relative;overflow:hidden;',
                     class:'tab_text'
                 },
                 [
@@ -49,7 +49,7 @@ __SYD._p1 = () =>{
 }
 
 setTimeout(() =>{//max-height:100%;width:auto;max-
-    __v['_p1'].innerHTML = `<video autoplay playsinline muted style = 'width:100%;max-height:500px;' loop id="autoplay">
+    __v['_p1'].innerHTML = `<video autoplay playsinline muted style = 'height:100vh;width:auto;max-height:500px;' loop id="autoplay">
         <source src='./assets/intro.mp4' type="video/mp4">
      </video>
      <div style = 'height:50px;width:50px;position:absolute;top:10px;right:10px;border-radius:50%;background-size:70%;background-position:center;background-repeat:no-repeat;cursor:pointer;background-image:url("./assets/aud-d.png")' class="click" onclick = 'togMute()' id="aud"></div>`
